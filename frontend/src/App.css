@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 100vh;
+  gap: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(144, 67, 67);
+  width: 100vw;
+}
+.btn {
+  background-color: aliceblue;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0.5rem;
+}
+.btn:hover{
+  transition: 200ms;
+  background-color: #000;
+  color: aliceblue;
+}
+.led-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn:disabled{
+  background-color: #ccc;
+  color: #000;
+}
