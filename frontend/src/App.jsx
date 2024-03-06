@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from "axios"
 import './App.css'
-const baseUrl = "http://192.168.230.112:3000/"
+const baseUrl = "http://185.130.47.157:3000/"
 axios.defaults.baseURL = baseUrl;
 function App() {
   const [isOn1, setIsOn1] = useState(false)
