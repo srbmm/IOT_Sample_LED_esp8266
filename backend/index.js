@@ -32,6 +32,11 @@ app.post('/change-lamp2', (req, res) => {
   led2 = req.body.value ? 1 : 0
   res.send({value: led2})
 })
+
+app.post('/toggle', (req, res) => {
+  led1 = !led1
+  res.send("")
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
