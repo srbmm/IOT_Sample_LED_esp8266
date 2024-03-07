@@ -34,7 +34,7 @@ app.post('/change-lamp2', (req, res) => {
 })
 
 app.post('/toggle', (req, res) => {
-  led1 = !led1
+  led1 = led1 ? 0 : 1
   res.send("")
 })
 
