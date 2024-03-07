@@ -37,6 +37,7 @@ app.post('/toggle', (req, res) => {
   led1 = !led1
   res.send("")
 })
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
